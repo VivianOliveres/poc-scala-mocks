@@ -1,0 +1,12 @@
+plugins {
+    id 'com.kensai.poc.scala-common_2.13'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation project(':app')
+    testImplementation(group:"org.scalamock", name:"scalamock_${scalaMajorVersion}", version:"5.1.0")
+}

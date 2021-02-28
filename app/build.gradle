@@ -1,0 +1,12 @@
+plugins {
+    id 'com.kensai.poc.scala-common_2.13'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+application {
+    mainClass = 'com.kensai.poc.mocks.App'
+}

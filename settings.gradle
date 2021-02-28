@@ -1,0 +1,4 @@
+rootProject.name = 'poc-scala-mocks'
+include('app')
+include('test-mockito')
+include('test-scala-mock')

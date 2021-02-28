@@ -1,0 +1,12 @@
+plugins {
+    id 'com.kensai.poc.scala-common_2.13'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation project(':app')
+    testImplementation(group:"org.scalatestplus", name:"mockito-3-4_${scalaMajorVersion}", version:"3.2.5.0")
+}
